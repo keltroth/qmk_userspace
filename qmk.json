@@ -2,6 +2,7 @@
     "userspace_version": "1.1",
     "build_targets": [
         ["crkbd", "djangounet"],
-        ["crkbd/rev1", "djangounet"]
+        ["crkbd/rev1", "djangounet"],
+        ["keychron/q2/ansi_encoder", "djangounet"]
     ]
 }
