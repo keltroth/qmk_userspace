@@ -4,10 +4,29 @@
 
 #define TAPPING_TERM 150
 #define TAPPING_TERM_PER_KEY
-//#define SPLIT_LAYER_STATE_ENABLE
-//#define SPLIT_MODS_ENABLE
-//#define SPLIT_OLED_ENABLE
-//
-//#define OLED_TIMEOUT 3000
-//
-//#define OLED_FADE_OUT
+
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_LED_STATE_ENABLE
+#define SPLIT_USB_DETECT
+
+#define HEIGHT 128
+#define WIDTH 32
+
+#define SPLIT_TRANSACTION_IDS_USER SYNC_STATS_CMD
+
+#ifdef RGBLIGHT_ANIMATIONS
+#    undef RGBLIGHT_ANIMATIONS
+#endif
+
+
+#define SPLIT_TRANSPORT_MIRROR
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_LED_STATE_ENABLE
+#define SPLIT_MODS_ENABLE
+
+// Optional: Set custom shared memory size if needed
+#define SPLIT_SHARED_MEMORY_SIZE 32
+
+#define EE_HANDS
+#define MASTER_LEFT
+
